@@ -1,0 +1,6 @@
+let numero = prompt("selecione um numero, e direi se ele e par ou impar")
+if(numero %2 == 0){
+    alert("O numero selecionado e par")
+} else{
+    alert("O numero selecionado e impar")
+}

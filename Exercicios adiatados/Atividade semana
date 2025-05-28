@@ -1,0 +1,8 @@
+let vetor = ["domingo", "segunda", "terca", "quarta", "quinta", "sexta", "sabado"]
+let numero = parseInt(prompt("selecione um dia da semana, sendo domingo = 1"))
+if(numero >=1 && numero <=7){
+    alert("voce selecionou: " + vetor[numero - 1])
+}  
+else{
+    alert("numero invalido, selecione um valor de 1 a 7")
+}
