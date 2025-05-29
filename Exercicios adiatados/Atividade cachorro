@@ -1,0 +1,9 @@
+let idadecachorro = prompt("Digite a idade do seu cachorro ");
+let idadehumana = (idadecachorro) * 7;
+if (idadehumana >= 63) {
+    alert("Seu cachorro tem " + idadehumana + " anos humanos, ele ja poderia ter se aposentado!");
+} else if (idadecachorro < 0) {
+    alert("Idade inválida");
+} else {
+    alert("Seu cachorro tem " + idadehumana + " anos humanos, e nao pode se aposentar ainda!");
+}
